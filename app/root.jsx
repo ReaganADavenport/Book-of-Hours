@@ -7,7 +7,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import UpperBorder from "../public/UpperBorder.png"
+import styles from './styles/main.css';
+import UpperBorder from "../public/UpperBorder.png";
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <img src={UpperBorder} style={{width: '120%', marginBottom: 0, paddingBottom: 0}}></img>
+        <img src={UpperBorder} className="Upper-Border"></img>
         <Outlet />
         <ScrollRestoration />
         <Scripts />
@@ -27,4 +28,7 @@ export default function App() {
       </body>
     </html>
   );
+}
+export function links() {
+  return [{rel: "stylesheet", href: styles}]
 }
