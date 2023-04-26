@@ -4,7 +4,7 @@ export const meta = () => {
   
   export default function Social() {
     return (
-      <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+      <div style={{ fontFamily: "Canterbury", lineHeight: "1.4" }}>
         <h1>Welcome to Social</h1>
         
       </div>

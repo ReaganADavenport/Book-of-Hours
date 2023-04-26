@@ -4,7 +4,7 @@ export const meta = () => {
   
   export default function Personal() {
     return (
-      <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+      <div style={{ fontFamily: "Canterbury", lineHeight: "1.4" }}>
         <h1>Welcome to Personal</h1>
         
       </div>
