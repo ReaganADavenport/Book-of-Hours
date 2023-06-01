@@ -2,7 +2,7 @@ export const meta = () => {
   return [{ title: "Book of Hours" }];
 };
 import { Link } from '@remix-run/react'
-import styles from '../styles/main.css'
+// import styles from '../styles/main.css'
 
 export default function Index() {
   return (
